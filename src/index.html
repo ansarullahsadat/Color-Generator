@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>UI Card</title>
+  </head>
+  <body
+    class="bg-gradient-to-br from-slate-200 to-slate-300 flex flex-col justify-center items-center min-h-screen py-4 px-2"
+  >
+    <div
+      class="bg-black rounded-3xl pt-2 pb-2 px-6 text-lg hover:-translate-y-0.5 transition-all"
+    >
+      <p class="text-slate-300">
+        Color <span class="text-slate-100 cursor-pointer">#F9ACA7</span> copied
+        to your clipbord
+      </p>
+    </div>
+
+    <h2 class="text-2xl text-black font-medium mt-14 mb-10">
+      Color palette generator
+    </h2>
+
+    <div class="flex items-center gap-6 flex-wrap justify-center">
+      <!-- card 1 -->
+      <div
+        class="w-[10rem] h-[16rem] border-8 relative text-slate-600 hover:text-slate-900 border-white bg-white rounded-lg shadow-md shadow-slate-200/30 hover:-translate-y-3 transition-all hover:shadow-slate-500/30"
+      >
+        <div
+          class="absolute inset-x-0 top-0 bottom-12 w-full bg-[#EEEDF0] rounded-md"
+        ></div>
+
+        <button class="bg-white absolute w-full bottom-2 font-semibold">
+          <a href="#">#EEEDF0</a>
+        </button>
+      </div>
+      <!-- card 1 -->
+
+      <!-- card 2 -->
+      <div
+        class="w-[10rem] h-[16rem] border-8 relative text-slate-600 hover:text-slate-900 border-white bg-white rounded-lg shadow-md shadow-slate-200/30 hover:-translate-y-3 transition-all hover:shadow-slate-500/30"
+      >
+        <div
+          class="absolute inset-x-0 top-0 bottom-12 w-full bg-[#A1B5C1] rounded-md"
+        ></div>
+
+        <button class="bg-white absolute w-full bottom-2 font-semibold">
+          <a href="#">#A1B5C1</a>
+        </button>
+      </div>
+      <!-- card 2 -->
+
+      <!-- card 3 -->
+      <div
+        class="w-[10rem] h-[16rem] border-8 relative text-slate-600 hover:text-slate-900 border-white bg-white rounded-lg shadow-xl shadow-slate-200/30 lg:shadow-slate-500/30 hover:-translate-y-4 transition-all lg:-translate-y-3"
+      >
+        <div
+          class="absolute inset-x-0 top-0 bottom-12 w-full bg-[#F9ACA7] rounded-md"
+        ></div>
+
+        <button class="bg-white absolute w-full bottom-2 font-semibold">
+          <a href="#">#F9ACA7</a>
+        </button>
+      </div>
+      <!-- card 3 -->
+
+      <!-- card 4 -->
+      <div
+        class="w-[10rem] h-[16rem] border-8 relative text-slate-600 hover:text-slate-900 border-white hover:shadow-slate-500/30 bg-white rounded-lg shadow-md shadow-slate-200/30 hover:-translate-y-3 transition-all"
+      >
+        <div
+          class="absolute inset-x-0 top-0 bottom-12 w-full bg-[#68737D] rounded-md"
+        ></div>
+
+        <button class="bg-white absolute w-full bottom-2 font-semibold">
+          <a href="#">#68737D</a>
+        </button>
+      </div>
+      <!-- card 4 -->
+
+      <!-- card 5 -->
+      <div
+        class="w-[10rem] h-[16rem] border-8 relative text-slate-600 hover:text-slate-900 border-white bg-white rounded-lg shadow-md shadow-slate-200/30 hover:-translate-y-3 transition-all hover:shadow-slate-500/30"
+      >
+        <div
+          class="absolute inset-x-0 top-0 bottom-12 w-full bg-[#CF365F] rounded-md"
+        ></div>
+
+        <button class="bg-white absolute w-full bottom-2 font-semibold">
+          <a href="#">#CF365F</a>
+        </button>
+      </div>
+      <!-- card 5 -->
+    </div>
+
+    <button
+      class="bg-gradient-to-tr from-indigo-400/75 to-indigo-500/75 pt-3.5 pb-3 px-6 rounded-lg text-white w-[18rem] mt-12 hover:-translate-y-0.5 transition-all active:translate-y-0 shadow-xl shadow-slate-300 hover:shadow-indigo-500/30 generate"
+    >
+      <a href=""> Generate palette</a>
+    </button>
+
+    <p class="text-lg text-black mt-4">
+      Or just press the "Spacebar" to get generate new palette.
+    </p>
+
+    <div
+      class="bg-white rounded-3xl py-1.5 px-6 hover:-translate-y-0.5 transition-all mt-12"
+    >
+      <p class="text-slate-500">
+        Click to copy individual color
+        <span class="w-1.5 h-1.5 bg-slate-600 rounded-full inline-block"></span>
+        Press "C" to copy palette
+      </p>
+    </div>
+  </body>
+</html>
